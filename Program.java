@@ -33,9 +33,9 @@ public class Program {
 
         frameMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         panelMain.setSize(new Dimension(500, 100));
+        labelWelcome.setHorizontalAlignment(SwingConstants.CENTER);
         panelMain.add(labelNULL);
         panelMain.add(labelWelcome);
-        panelMain.setAlignmentX(Component.CENTER_ALIGNMENT);
         frameMain.getContentPane().add(panelMain);
         frameMain.setSize(panelMain.getSize());
 
