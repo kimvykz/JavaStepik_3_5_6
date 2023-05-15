@@ -27,7 +27,7 @@ public class Program {
 
 
         JFrame frameMain = new JFrame("Main Frame");
-        JPanel panelMain = new JPanel(new GridLayout(1,3));
+        JPanel panelMain = new JPanel(new GridLayout(1,2));
         JLabel labelWelcome = new JLabel("Welcome!");
         JLabel labelNULL = new JLabel("");
 
@@ -35,6 +35,7 @@ public class Program {
         panelMain.setSize(new Dimension(500, 100));
         panelMain.add(labelNULL);
         panelMain.add(labelWelcome);
+        panelMain.setAlignmentX(Component.CENTER_ALIGNMENT);
         frameMain.getContentPane().add(panelMain);
         frameMain.setSize(panelMain.getSize());
 
